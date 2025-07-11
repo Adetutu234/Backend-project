@@ -12,7 +12,7 @@ const MY_DATABASE = process.env.MY_DATABASE
 app.use(express.json()) 
 app.use(cors(
     {
-        origin: ["http://localhost:3000", "https://backend-project-1-1qj9.onrender.com"],
+        origin: ["https://frontend-project-eight-rose.vercel.app/"],
         credentials: true
     }
 ))
